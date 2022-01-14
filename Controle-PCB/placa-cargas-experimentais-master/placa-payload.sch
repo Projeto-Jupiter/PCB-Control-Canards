@@ -1,0 +1,350 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6850 5100 7150 5100
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 604948B4
+P 2150 1900
+F 0 "J4" H 2122 1874 50  0000 R CNN
+F 1 "Battery" H 2122 1783 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2150 1900 50  0001 C CNN
+F 3 "~" H 2150 1900 50  0001 C CNN
+	1    2150 1900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2000 1800 2000
+Wire Wire Line
+	1800 2000 1800 2100
+$Comp
+L power:GND #PWR07
+U 1 1 60498119
+P 1800 2100
+F 0 "#PWR07" H 1800 1850 50  0001 C CNN
+F 1 "GND" H 1805 1927 50  0000 C CNN
+F 2 "" H 1800 2100 50  0001 C CNN
+F 3 "" H 1800 2100 50  0001 C CNN
+	1    1800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 6049A706
+P 2050 3150
+F 0 "J3" H 2078 3126 50  0000 L CNN
+F 1 "Driver_power" H 2078 3035 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2050 3150 50  0001 C CNN
+F 3 "~" H 2050 3150 50  0001 C CNN
+	1    2050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3250 1650 3250
+Wire Wire Line
+	1650 3250 1650 3350
+Wire Wire Line
+	1850 3150 1450 3150
+Text Label 7950 3000 0    50   ~ 0
+Driver_PWM
+Text Label 7950 3100 0    50   ~ 0
+Motor_rotation_0
+$Comp
+L power:GND #PWR06
+U 1 1 6049D5F9
+P 1650 3350
+F 0 "#PWR06" H 1650 3100 50  0001 C CNN
+F 1 "GND" H 1655 3177 50  0000 C CNN
+F 2 "" H 1650 3350 50  0001 C CNN
+F 3 "" H 1650 3350 50  0001 C CNN
+	1    1650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1900 4550 1900
+Text Label 3850 1900 0    50   ~ 0
+Driver_PWM
+Text Label 3850 2200 0    50   ~ 0
+Motor_rotation_0
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 604A1A5B
+P 8950 2200
+F 0 "J1" H 8922 2174 50  0000 R CNN
+F 1 "Encoder" H 8922 2083 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 8950 2200 50  0001 C CNN
+F 3 "~" H 8950 2200 50  0001 C CNN
+	1    8950 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 604A4602
+P 8750 2350
+F 0 "#PWR03" H 8750 2100 50  0001 C CNN
+F 1 "GND" H 8755 2177 50  0000 C CNN
+F 2 "" H 8750 2350 50  0001 C CNN
+F 3 "" H 8750 2350 50  0001 C CNN
+	1    8750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2000 8750 1950
+$Comp
+L power:+3V3 #PWR08
+U 1 1 604A5166
+P 8750 1950
+F 0 "#PWR08" H 8750 1800 50  0001 C CNN
+F 1 "+3V3" H 8765 2123 50  0000 C CNN
+F 2 "" H 8750 1950 50  0001 C CNN
+F 3 "" H 8750 1950 50  0001 C CNN
+	1    8750 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 604A628D
+P 1100 1900
+F 0 "#FLG01" H 1100 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 2073 50  0000 C CNN
+F 2 "" H 1100 1900 50  0001 C CNN
+F 3 "~" H 1100 1900 50  0001 C CNN
+	1    1100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR05
+U 1 1 604A6C30
+P 1450 1900
+F 0 "#PWR05" H 1450 1750 50  0001 C CNN
+F 1 "+6V" H 1465 2073 50  0000 C CNN
+F 2 "" H 1450 1900 50  0001 C CNN
+F 3 "" H 1450 1900 50  0001 C CNN
+	1    1450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1900 1450 1900
+Connection ~ 1450 1900
+$Comp
+L power:+6V #PWR02
+U 1 1 604A7742
+P 7150 5100
+F 0 "#PWR02" H 7150 4950 50  0001 C CNN
+F 1 "+6V" H 7165 5273 50  0000 C CNN
+F 2 "" H 7150 5100 50  0001 C CNN
+F 3 "" H 7150 5100 50  0001 C CNN
+	1    7150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR04
+U 1 1 604A7F86
+P 1450 3150
+F 0 "#PWR04" H 1450 3000 50  0001 C CNN
+F 1 "+6V" H 1465 3323 50  0000 C CNN
+F 2 "" H 1450 3150 50  0001 C CNN
+F 3 "" H 1450 3150 50  0001 C CNN
+	1    1450 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3000 4250 3000
+$Comp
+L power:+3V3 #PWR01
+U 1 1 604A9987
+P 3850 3000
+F 0 "#PWR01" H 3850 2850 50  0001 C CNN
+F 1 "+3V3" H 3865 3173 50  0000 C CNN
+F 2 "" H 3850 3000 50  0001 C CNN
+F 3 "" H 3850 3000 50  0001 C CNN
+	1    3850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3100 3900 3100
+Wire Wire Line
+	4550 3200 3900 3200
+Text Label 3900 3100 0    50   ~ 0
+Encoder_A
+Text Label 3900 3200 0    50   ~ 0
+Encoder_B
+Wire Wire Line
+	8750 2200 8100 2200
+Wire Wire Line
+	8750 2100 8100 2100
+Text Label 8100 2200 0    50   ~ 0
+Encoder_A
+Text Label 8100 2100 0    50   ~ 0
+Encoder_B
+Wire Wire Line
+	1450 1900 1950 1900
+Wire Wire Line
+	8750 2300 8750 2350
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 604B7482
+P 4250 3000
+F 0 "#FLG02" H 4250 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 4250 3173 50  0000 C CNN
+F 2 "" H 4250 3000 50  0001 C CNN
+F 3 "~" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 3000
+Wire Wire Line
+	4250 3000 3850 3000
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 604B7FF1
+P 1650 3250
+F 0 "#FLG03" H 1650 3325 50  0001 C CNN
+F 1 "PWR_FLAG" V 1650 3377 50  0000 L CNN
+F 2 "" H 1650 3250 50  0001 C CNN
+F 3 "~" H 1650 3250 50  0001 C CNN
+	1    1650 3250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1650 3250
+$Comp
+L power:GND #PWR09
+U 1 1 604BA1A2
+P 4400 1600
+F 0 "#PWR09" H 4400 1350 50  0001 C CNN
+F 1 "GND" H 4405 1427 50  0000 C CNN
+F 2 "" H 4400 1600 50  0001 C CNN
+F 3 "" H 4400 1600 50  0001 C CNN
+	1    4400 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1600 4550 1600
+NoConn ~ 6850 1600
+NoConn ~ 6850 1700
+NoConn ~ 6850 1800
+NoConn ~ 6850 1900
+NoConn ~ 6850 2000
+NoConn ~ 6850 2100
+NoConn ~ 6850 2200
+NoConn ~ 6850 2300
+NoConn ~ 6850 2400
+NoConn ~ 6850 2500
+NoConn ~ 6850 2600
+NoConn ~ 6850 2700
+NoConn ~ 6850 2800
+NoConn ~ 6850 2900
+NoConn ~ 6850 3000
+NoConn ~ 6850 3100
+NoConn ~ 6850 3200
+NoConn ~ 6850 3300
+NoConn ~ 6850 3400
+NoConn ~ 6850 3500
+NoConn ~ 6850 3600
+NoConn ~ 6850 3700
+NoConn ~ 6850 3800
+NoConn ~ 6850 3900
+NoConn ~ 6850 4000
+NoConn ~ 6850 4100
+NoConn ~ 6850 4200
+NoConn ~ 6850 4300
+NoConn ~ 6850 4400
+NoConn ~ 6850 4700
+NoConn ~ 6850 4800
+NoConn ~ 6850 4900
+NoConn ~ 6850 5000
+NoConn ~ 6850 5200
+NoConn ~ 6850 5300
+NoConn ~ 6850 5400
+NoConn ~ 6850 5500
+NoConn ~ 6850 5600
+NoConn ~ 6850 5700
+NoConn ~ 6850 5800
+NoConn ~ 6850 5900
+NoConn ~ 4550 5900
+NoConn ~ 4550 5800
+NoConn ~ 4550 5700
+NoConn ~ 4550 5600
+NoConn ~ 4550 5500
+NoConn ~ 4550 5400
+NoConn ~ 4550 5300
+NoConn ~ 4550 5200
+NoConn ~ 4550 5100
+NoConn ~ 4550 5000
+NoConn ~ 4550 4900
+NoConn ~ 4550 4800
+NoConn ~ 4550 4700
+NoConn ~ 4550 4600
+NoConn ~ 4550 4500
+NoConn ~ 4550 4400
+NoConn ~ 4550 4300
+NoConn ~ 4550 4200
+NoConn ~ 4550 4100
+NoConn ~ 4550 4000
+NoConn ~ 4550 3900
+NoConn ~ 4550 3800
+NoConn ~ 4550 3700
+NoConn ~ 4550 3600
+NoConn ~ 4550 3400
+NoConn ~ 4550 3300
+NoConn ~ 4550 2900
+NoConn ~ 4550 2800
+NoConn ~ 4550 2700
+NoConn ~ 4550 2600
+NoConn ~ 4550 2500
+NoConn ~ 4550 2400
+NoConn ~ 4550 2100
+NoConn ~ 4550 2000
+NoConn ~ 4550 1800
+NoConn ~ 4550 1700
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 604DE29F
+P 8850 3100
+F 0 "J2" H 8878 3126 50  0000 L CNN
+F 1 "Driver_control" H 8878 3035 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 8850 3100 50  0001 C CNN
+F 3 "~" H 8850 3100 50  0001 C CNN
+	1    8850 3100
+	1    0    0    -1  
+$EndComp
+Text Label 7950 3200 0    50   ~ 0
+Motor_rotation_1
+Wire Wire Line
+	7950 3200 8650 3200
+Wire Wire Line
+	7950 3100 8650 3100
+Wire Wire Line
+	7950 3000 8650 3000
+NoConn ~ 4550 3500
+$Comp
+L teensy:Teensy3.6 U1
+U 1 1 60491BC1
+P 5700 3750
+F 0 "U1" H 5700 6187 60  0000 C CNN
+F 1 "Teensy3.6" H 5700 6081 60  0000 C CNN
+F 2 "teensy:Teensy35_36" H 5700 3800 60  0001 C CNN
+F 3 "" H 5700 3800 60  0000 C CNN
+	1    5700 3750
+	1    0    0    -1  
+$EndComp
+Text Label 3850 2300 0    50   ~ 0
+Motor_rotation_1
+Wire Wire Line
+	3850 2300 4550 2300
+Wire Wire Line
+	3850 2200 4550 2200
+$EndSCHEMATC
