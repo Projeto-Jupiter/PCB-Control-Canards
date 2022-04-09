@@ -264,8 +264,8 @@ Wire Wire Line
 Text Label 6400 3850 2    50   ~ 0
 PWM
 Wire Wire Line
-	5100 4250 4800 4250
-Text Label 4800 4250 0    50   ~ 0
+	5100 3850 4800 3850
+Text Label 4800 3850 0    50   ~ 0
 Enable
 NoConn ~ 5100 2750
 NoConn ~ 5100 2850
@@ -277,7 +277,6 @@ NoConn ~ 5100 3450
 NoConn ~ 5100 3550
 NoConn ~ 5100 3650
 NoConn ~ 5100 3750
-NoConn ~ 5100 3850
 NoConn ~ 5100 4050
 NoConn ~ 5100 4150
 NoConn ~ 6100 4250
@@ -310,4 +309,5 @@ Wire Notes Line
 Text Notes 2700 5050 0    50   ~ 0
 GY-521
 NoConn ~ 6100 3550
+NoConn ~ 5100 4250
 $EndSCHEMATC

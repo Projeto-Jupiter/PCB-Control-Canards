@@ -200,10 +200,6 @@ Wire Wire Line
 	6100 3850 6400 3850
 Text Label 6400 3850 2    50   ~ 0
 PWM
-Wire Wire Line
-	5100 4250 4800 4250
-Text Label 4800 4250 0    50   ~ 0
-Enable
 NoConn ~ 5100 2750
 NoConn ~ 5100 2850
 NoConn ~ 5100 3050
@@ -214,7 +210,6 @@ NoConn ~ 5100 3450
 NoConn ~ 5100 3550
 NoConn ~ 5100 3650
 NoConn ~ 5100 3750
-NoConn ~ 5100 3850
 NoConn ~ 5100 4050
 NoConn ~ 5100 4150
 NoConn ~ 6100 4250
@@ -251,14 +246,19 @@ Wire Wire Line
 Wire Wire Line
 	5800 2300 6000 2300
 $Comp
-L Controle-PCB-rescue:+6V-power #PWR?
+L Controle-PCB-rescue:+6V-power #PWR05
 U 1 1 62519110
 P 6000 2300
-F 0 "#PWR?" H 6000 2150 50  0001 C CNN
+F 0 "#PWR05" H 6000 2150 50  0001 C CNN
 F 1 "+6V" V 6015 2428 50  0000 L CNN
 F 2 "" H 6000 2300 50  0001 C CNN
 F 3 "" H 6000 2300 50  0001 C CNN
 	1    6000 2300
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5100 3850 4800 3850
+Text Label 4800 3850 0    50   ~ 0
+Enable
+NoConn ~ 5100 4250
 $EndSCHEMATC
