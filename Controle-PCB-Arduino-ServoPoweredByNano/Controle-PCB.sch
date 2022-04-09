@@ -26,46 +26,6 @@ F 3 "~" H 2350 3000 50  0001 C CNN
 	1    2350 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Controle-PCB-rescue:Conn_01x02_Male-Connector J2
-U 1 1 61E06A34
-P 2350 4350
-AR Path="/61E06A34" Ref="J2"  Part="1" 
-AR Path="/61DF7E3D/61E06A34" Ref="J?"  Part="1" 
-F 0 "J2" H 2350 4750 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 2350 4650 50  0000 C CNN
-F 2 "Jupiter:JS-1001-02" H 2350 4350 50  0001 C CNN
-F 3 "~" H 2350 4350 50  0001 C CNN
-	1    2350 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Controle-PCB-rescue:PWR_FLAG-power #FLG0101
-U 1 1 61E06A48
-P 2900 4350
-F 0 "#FLG0101" H 2900 4425 50  0001 C CNN
-F 1 "PWR_FLAG" H 2900 4523 50  0000 C CNN
-F 2 "" H 2900 4350 50  0001 C CNN
-F 3 "~" H 2900 4350 50  0001 C CNN
-	1    2900 4350
-	1    0    0    -1  
-$EndComp
-Connection ~ 2900 4350
-Wire Wire Line
-	2550 4350 2900 4350
-$Comp
-L Controle-PCB-rescue:+6V-power #PWR0103
-U 1 1 61E06A56
-P 3150 4350
-F 0 "#PWR0103" H 3150 4200 50  0001 C CNN
-F 1 "+6V" V 3165 4478 50  0000 L CNN
-F 2 "" H 3150 4350 50  0001 C CNN
-F 3 "" H 3150 4350 50  0001 C CNN
-	1    3150 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2900 4350 3150 4350
 Wire Wire Line
 	2550 3000 3050 3000
 Wire Wire Line
@@ -91,12 +51,8 @@ Wire Notes Line
 	3600 3500 1850 3500
 Wire Notes Line
 	1850 3500 1850 2500
-Wire Notes Line
-	1850 3850 3600 3850
 Text Notes 2600 2450 0    50   ~ 0
 Enable\n
-Text Notes 2600 3800 0    50   ~ 0
-Battery\n
 $Comp
 L Connector:Conn_01x03_Male J5
 U 1 1 61E1CF23
@@ -155,32 +111,13 @@ Wire Wire Line
 Wire Notes Line
 	1850 1150 3600 1150
 Wire Notes Line
-	3600 2150 3600 1150
+	3650 2350 3650 1350
 Text Notes 2600 1100 0    50   ~ 0
 Servo\n
 Wire Notes Line
-	1850 1150 1850 2150
+	1900 1350 1900 2350
 Wire Notes Line
-	1850 2150 3600 2150
-$Comp
-L Controle-PCB-rescue:GND-power #PWR0102
-U 1 1 61E06A42
-P 3000 4450
-F 0 "#PWR0102" H 3000 4200 50  0001 C CNN
-F 1 "GND" H 3005 4277 50  0000 C CNN
-F 2 "" H 3000 4450 50  0001 C CNN
-F 3 "" H 3000 4450 50  0001 C CNN
-	1    3000 4450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2550 4450 3000 4450
-Wire Notes Line
-	3600 4850 3600 3850
-Wire Notes Line
-	1850 4850 3600 4850
-Wire Notes Line
-	1850 4850 1850 3850
+	1900 2350 3650 2350
 Text Label 2300 5600 0    50   ~ 0
 SCL0
 Text Label 2300 5700 0    50   ~ 0
@@ -287,18 +224,13 @@ NoConn ~ 6100 3650
 NoConn ~ 6100 3350
 NoConn ~ 6100 3050
 NoConn ~ 6100 2950
-NoConn ~ 5800 2550
 NoConn ~ 5500 2550
 Wire Notes Line
 	4350 2000 6700 2000
 Wire Notes Line
 	6700 2000 6700 5200
-Wire Notes Line
-	4350 5200 4350 2000
 Text Notes 5350 1950 0    50   ~ 0
 Arduino Nano
-Wire Notes Line
-	6700 5200 4350 5200
 Wire Notes Line
 	1800 5100 3950 5100
 Wire Notes Line
@@ -310,4 +242,23 @@ Wire Notes Line
 Text Notes 2700 5050 0    50   ~ 0
 GY-521
 NoConn ~ 6100 3550
+Wire Notes Line
+	6700 5200 4350 5200
+Wire Notes Line
+	4350 5200 4350 2000
+Wire Wire Line
+	5800 2550 5800 2300
+Wire Wire Line
+	5800 2300 6000 2300
+$Comp
+L Controle-PCB-rescue:+6V-power #PWR?
+U 1 1 62519110
+P 6000 2300
+F 0 "#PWR?" H 6000 2150 50  0001 C CNN
+F 1 "+6V" V 6015 2428 50  0000 L CNN
+F 2 "" H 6000 2300 50  0001 C CNN
+F 3 "" H 6000 2300 50  0001 C CNN
+	1    6000 2300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
