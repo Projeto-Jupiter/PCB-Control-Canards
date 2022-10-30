@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\kaleb\OneDrive\Documentos\Kleberman\Kaleb 2022\Jupiter\Controle\Projeto da placa\Projeto Elétrico - Controle\Projeto Elétrico - Controle.kicad_sch</source>
+    <date>27/10/2022 21:03:35</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Projeto Elétrico - Controle.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Power Supply</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Projeto Elétrico - Controle.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>757d85f2-b451-410b-a367-38bbba0bc5b0</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Projeto Elétrico - Controle.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09ace7bf-5caf-4b75-86f5-bcc8f49d7ab5</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Projeto Elétrico - Controle.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5df4528-aa9e-49bc-8bef-92db98c13695</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-DEVKIT-V1</value>
+      <footprint>ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1</footprint>
+      <fields>
+        <field name="MANUFACTURER">DOIT</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.8 mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32-DEVKIT-V1" part="ESP32-DEVKIT-V1" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="6.8 mm"/>
+      <property name="MANUFACTURER" value="DOIT"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Projeto Elétrico - Controle.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>720ade66-7cf8-4d04-b9f4-2dbc3573ca60</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MINI560-StepDown_5v</value>
+      <footprint>Jupiter:stepdown 5v</footprint>
+      <libsource lib="My lubrary" part="MINI560-StepDown_5v" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Projeto Elétrico - Controle.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c56f966-6cfd-4ef5-8d0a-c4bde654f390</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>FlashMemory_W25Q128</value>
+      <footprint>Jupiter:FlashMemory W25Q128</footprint>
+      <libsource lib="My lubrary" part="FlashMemory_W25Q128" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Projeto Elétrico - Controle.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f48f7b00-d4c2-4e0a-a3ed-90a45f65b114</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>GY-521 - Sensor 1</value>
+      <footprint>GY-521:GY-521</footprint>
+      <libsource lib="GY-521" part="GY-521" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Projeto Elétrico - Controle.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39f74c2a-30ce-43bd-bef1-ce0de86e84e5</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>GY-521 - Sensor 2</value>
+      <footprint>GY-521:GY-521</footprint>
+      <libsource lib="GY-521" part="GY-521" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Projeto Elétrico - Controle.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b914cbf-a12e-46c3-9178-035499f1d75a</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>GY-BMP280</value>
+      <footprint>Jupiter:GY BMP280</footprint>
+      <libsource lib="My lubrary" part="GY-BMP280" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Projeto Elétrico - Controle.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b0eb5ab-c93f-48bc-909a-b6ea950abda7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-DEVKIT-V1" part="ESP32-DEVKIT-V1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-DEVKIT-V1</field>
+        <field name="Footprint">MODULE_ESP32_DEVKIT_V1</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.8 mm</field>
+        <field name="MANUFACTURER">DOIT</field>
+        <field name="PARTREV">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D15" type="bidirectional"/>
+        <pin num="4" name="D2" type="bidirectional"/>
+        <pin num="5" name="D4" type="bidirectional"/>
+        <pin num="6" name="RX2" type="input"/>
+        <pin num="7" name="TX2" type="output"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D18" type="bidirectional"/>
+        <pin num="10" name="D19" type="bidirectional"/>
+        <pin num="11" name="D21" type="bidirectional"/>
+        <pin num="12" name="RX0" type="input"/>
+        <pin num="13" name="TX0" type="output"/>
+        <pin num="14" name="D22" type="bidirectional"/>
+        <pin num="15" name="D23" type="bidirectional"/>
+        <pin num="16" name="EN" type="input"/>
+        <pin num="17" name="VP" type="bidirectional"/>
+        <pin num="18" name="VN" type="bidirectional"/>
+        <pin num="19" name="D34" type="bidirectional"/>
+        <pin num="20" name="D35" type="bidirectional"/>
+        <pin num="21" name="D32" type="bidirectional"/>
+        <pin num="22" name="D33" type="bidirectional"/>
+        <pin num="23" name="D25" type="bidirectional"/>
+        <pin num="24" name="D26" type="bidirectional"/>
+        <pin num="25" name="D27" type="bidirectional"/>
+        <pin num="26" name="D14" type="bidirectional"/>
+        <pin num="27" name="D12" type="bidirectional"/>
+        <pin num="28" name="D13" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="GY-521" part="GY-521">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GY-521</field>
+        <field name="Footprint">GY-521</field>
+      </fields>
+      <pins>
+        <pin num="ADO" name="ADO" type="bidirectional"/>
+        <pin num="GND" name="GND" type="bidirectional"/>
+        <pin num="INT" name="INT" type="bidirectional"/>
+        <pin num="SCL" name="SCL" type="bidirectional"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="VCC" name="VCC" type="bidirectional"/>
+        <pin num="XCL" name="XCL" type="bidirectional"/>
+        <pin num="XDA" name="XDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="My lubrary" part="FlashMemory_W25Q128">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FlashMemory_W25Q128</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="input"/>
+        <pin num="2" name="CS" type="input"/>
+        <pin num="3" name="DO" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="CLK" type="output"/>
+        <pin num="6" name="DI" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="My lubrary" part="GY-BMP280">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GY-BMP280</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="3" name="SCL" type="bidirectional"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="CSB" type="bidirectional"/>
+        <pin num="6" name="SD0" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="My lubrary" part="MINI560-StepDown_5v">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MINI560-StepDown_5v</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT+" type="output"/>
+        <pin num="2" name="OUT-" type="output"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-DEVKIT-V1">
+      <uri>C:/Users/kaleb/OneDrive/Documentos/Kleberman/Kaleb 2022/Jupiter/Controle/ESP32-DEVKIT-V1/ESP32-DEVKIT-V1.lib</uri>
+    </library>
+    <library logical="GY-521">
+      <uri>C:/Users/kaleb/OneDrive/Documentos/Kleberman/Kaleb 2022/Jupiter/Controle/GY-521/GY-521.lib</uri>
+    </library>
+    <library logical="My lubrary">
+      <uri>C:\Users\kaleb\OneDrive\Documentos\KiCad\6.0\symbols\My lubrary.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3v3">
+      <node ref="U1" pin="1" pinfunction="3V3" pintype="output"/>
+      <node ref="U3" pin="1" pinfunction="Vcc" pintype="input"/>
+      <node ref="U4" pin="ADO" pinfunction="ADO" pintype="bidirectional"/>
+      <node ref="U4" pin="VCC" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="U5" pin="VCC" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pinfunction="VCC" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/CS">
+      <node ref="U1" pin="3" pinfunction="D15" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="3" name="/HCLK">
+      <node ref="U1" pin="26" pinfunction="D14" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="CLK" pintype="output"/>
+    </net>
+    <net code="4" name="/HHD">
+      <node ref="U1" pin="5" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/HMISO">
+      <node ref="U1" pin="27" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="6" name="/HMOSI">
+      <node ref="U1" pin="28" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="DO" pintype="input"/>
+    </net>
+    <net code="7" name="/HWP">
+      <node ref="U1" pin="4" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/PWM 1">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/PWM 2">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="D18" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/SCL">
+      <node ref="U1" pin="14" pinfunction="D22" pintype="bidirectional"/>
+      <node ref="U4" pin="SCL" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="U5" pin="SCL" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/SDA">
+      <node ref="U1" pin="11" pinfunction="D21" pintype="bidirectional"/>
+      <node ref="U4" pin="SDA" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U5" pin="SDA" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/step_5v+">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="OUT+" pintype="output"/>
+    </net>
+    <net code="13" name="/step_5v-">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="OUT-" pintype="output"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="IN-" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="GND" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U5" pin="ADO" pinfunction="ADO" pintype="bidirectional"/>
+      <node ref="U5" pin="GND" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="VCC">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="VIN" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="RX2" pintype="input+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="TX2" pintype="output+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="D19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="RX0" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="TX0" pintype="output+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="D23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="VP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="VN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="D34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="D35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="D32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="D33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="D25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="D26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="D27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U4-PadINT)">
+      <node ref="U4" pin="INT" pinfunction="INT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U4-PadXCL)">
+      <node ref="U4" pin="XCL" pinfunction="XCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U4-PadXDA)">
+      <node ref="U4" pin="XDA" pinfunction="XDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U5-PadINT)">
+      <node ref="U5" pin="INT" pinfunction="INT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U5-PadXCL)">
+      <node ref="U5" pin="XCL" pinfunction="XCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U5-PadXDA)">
+      <node ref="U5" pin="XDA" pinfunction="XDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U6-Pad5)">
+      <node ref="U6" pin="5" pinfunction="CSB" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U6-Pad6)">
+      <node ref="U6" pin="6" pinfunction="SD0" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
