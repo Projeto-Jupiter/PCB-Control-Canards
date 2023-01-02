@@ -1,4 +1,4 @@
-20254462426716226
+20256248306916547
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56518,68 +56518,75 @@ solder jumper open
 5
 3
 Jupiter
-FlashMemory W25Q128
+Barometer module - GY-BMP280
 
 
 0
 6
 6
 Jupiter
-GY BMP280
+FlashMemory module - W25Q128
 
 
 0
 6
 6
 Jupiter
-Handmade_Inductor_Buck_Converter_2020
-L_Toroid, Vertical series, Radial, pin pitch=11.44mm, , length*width=24.64*15.5mm^2, Pulse, KM-4, http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
-L_Toroid Vertical series Radial pin pitch 11.44mm  length 24.64mm width 15.5mm Pulse KM-4
+Gyroscope module - GY-521
+
+
 0
-2
-2
+8
+8
 Jupiter
-JS-1001-02
+JS-1001-02 connector
 JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH vertical
 0
 2
 2
 Jupiter
-Logo_B
+LogoJupiter1
 
 
 0
 0
 0
 Jupiter
-Logo_F
+LogoJupiter2
 
 
 0
 0
 0
 Jupiter
-Logo_Preto
+Microcontroler module - ESP32
 
 
 0
-0
-0
+30
+30
 Jupiter
-Quadrilatero_-_escala
-
-
-0
-0
-0
-Jupiter
-stepdown 5v
+StepDown5v - Mini560
 
 
 0
 8
 8
+Jupiter
+TerminalBlock_bornier-2_P5.08mm
+simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
+0
+2
+2
+Jupiter
+TerminalBlock_bornier-3_P5.08mm
+simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3
+terminal block bornier3
+0
+3
+3
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
